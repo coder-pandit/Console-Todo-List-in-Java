@@ -13,6 +13,9 @@ public class Todo {
 			sc.nextLine();
 			
 			switch (i) {
+			case 0:
+				break;
+			
 			case 1:
 				f.printCommands();
 				break;
@@ -22,7 +25,6 @@ public class Todo {
 				break;
 				
 			case 3:
-				//sc.next();
 				System.out.print("\nEnter item to add: ");
 				f.addItem(sc.nextLine());
 				break;
@@ -43,7 +45,6 @@ public class Todo {
 				
 			case 6:
 				System.out.println("Enter item to be searched: ");
-				//sc.next();
 				f.searchItem(sc.nextLine());
 				break;
 
